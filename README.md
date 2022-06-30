@@ -11,7 +11,7 @@ $ git clone https://github.com/GabrielCamargoL/teste-gpx.git
 $ git clone https://github.com/GabrielCamargoL/teste-gpx.git
 
 # Acesse a pasta, instale as dependências e inicie o projeto
-$ cd help-duck-web
+$ cd teste-gpx 
 $ npm install
 $ npm start
 ```
