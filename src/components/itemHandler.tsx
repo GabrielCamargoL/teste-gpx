@@ -79,9 +79,9 @@ export default function ItemHandler() {
           />
 
           <div className='row margin-horizontal-10'>
-            <button onClick={() => verifyEmpty()}>Adicionar</button>
-            <button onClick={() => removeItem()}>Remover</button>
-            <button onClick={() => setItemInput('')}>Limpar Caixa</button>
+            <button onClick={() => verifyEmpty()}> Adicionar </button>
+            <button onClick={() => removeItem()}> Remover </button>
+            <button onClick={() => setItemInput('')}> Limpar Caixa </button>
           </div>
         </div>
       </div>
