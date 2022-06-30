@@ -32,3 +32,11 @@
 .margin-horizontal-10 * {
   margin: 0 5px;
 }
+
+button {
+  padding: 0 5px;
+}
+
+input {
+  padding: 5px;
+}

@@ -16,7 +16,7 @@ export default function ShyBall() {
   }, []);
 
   function moveBall(e: any) {
-    e.target.style.transform = `translate(${Math.random() * dimensions.width}px, ${Math.random() * dimensions.height}px)`;
+    e.target.style.transform = `translate(${Math.random() * (dimensions.width - 50)}px, ${Math.random() * (dimensions.height - 50)}px)`;
     console.log(e.target.style.transform)
     e.target.style.transitionDuration = 1 + 's';
   }
